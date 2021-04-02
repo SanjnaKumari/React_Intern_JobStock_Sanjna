@@ -82,4 +82,16 @@ const MData = [
     }
 
 ]
-export { Top, Account_Data, kData, MData };
+
+//TwoColumnData
+const TwoColumnData = [
+    {
+        cname:"col-md-6 col-sm-6 no-padd bl-dark",
+        btncontent:"Hire Us"
+    },
+    {
+        cname:"col-md-6 col-sm-6 no-padd gr-dark",
+        btncontent:"Join Us"
+    }
+]
+export { Top, Account_Data, kData, MData, TwoColumnData };
