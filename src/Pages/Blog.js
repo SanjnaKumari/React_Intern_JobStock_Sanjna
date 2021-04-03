@@ -10,7 +10,7 @@ const Blog = ()=> {
     <>
       <div className="Loader"></div>
 		  <div className="wrapper"> 
-        <BlogBanner/> 
+        {/* <BlogBanner/>  */}
       </div>
     {/* 
      <Navbar/>
