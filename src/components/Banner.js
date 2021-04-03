@@ -1,13 +1,13 @@
 import React from "react"
  
-const Banner = ({cname,bgImg,title})=> {
+const Banner = ({cname,cname2,bgImg,title})=> {
   return(
     <>
     <section
         className={cname}
         style={{ backgroundImage: `url(${bgImg})` }}
       >
-        <div className="container">
+        <div className={cname2}>
           <h1>{title}</h1>
         </div>
       </section>

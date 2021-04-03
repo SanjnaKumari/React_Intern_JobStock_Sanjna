@@ -12,6 +12,7 @@ const Blog = ()=> {
 		  <div className="wrapper"> 
         <Banner
           cname = "inner-header-title"
+          cname2 = "container"
           bgImg = {banner}
           title= "Blog Page"
         />
