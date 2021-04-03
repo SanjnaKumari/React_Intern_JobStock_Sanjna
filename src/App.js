@@ -9,7 +9,7 @@ export default function App() {
       <>
         {/* <Home /> */}
          {/* <Freelancing />  */}
-          <Blog/> 
+          {/* <Blog/>  */}
          {/* <CreateJob/> */}
       </>
 
