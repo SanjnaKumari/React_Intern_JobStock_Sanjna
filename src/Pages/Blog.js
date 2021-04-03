@@ -1,16 +1,20 @@
 import React from "react";
-import BlogBanner from '../sections/BlogBanner';
 import Footer from "../sections/Footer"
 import Navbar from "../components/Navbar";
 import BlogPost from "../sections/BlogPost";
 import Banner from "../components/Banner";
+import banner from '../img/banner-10.jpg'
 
 const Blog = ()=> {
   return(
     <>
       <div className="Loader"></div>
 		  <div className="wrapper"> 
-        {/* <BlogBanner/>  */}
+        <Banner
+          cname = "inner-header-title"
+          bgImg = {banner}
+          title= "Blog Page"
+        />
       </div>
     {/* 
      <Navbar/>

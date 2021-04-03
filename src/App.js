@@ -9,8 +9,8 @@ export default function App() {
       <>
         {/* <Home /> */}
          {/* <Freelancing />  */}
-         {/* <Blog/> */}
-         <CreateJob/>
+          {/* <Blog/>  */}
+         {/* <CreateJob/> */}
       </>
 
   );

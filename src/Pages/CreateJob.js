@@ -1,14 +1,17 @@
 import React from 'react'
-import Banner from '../sections/Banner'
-import GeneralDetail from '../sections/GeneralDetailBlog'
-import FullDetail from '../sections/FullDetailBlog'
+import Banner from '../components/Banner'
+import GeneralDetail from '../sections/GeneralDetailCreateJob'
+import FullDetail from '../sections/FullDetailCreateJob'
 
 const CreateJob = () => {
     return (
         <>
         <div className="Loader"></div>
 		<div className="wrapper">
-          <Banner/>
+          <Banner
+              cname = "inner-header-title blank"
+              title = "Create Job"
+          />
           <GeneralDetail/>
           <FullDetail/>
         </div>
